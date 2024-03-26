@@ -41,19 +41,19 @@ var unidadAConvertir = prompt("¿A que unidad de temperatura la deseas convertir
       let resultado = temperatura - 273.15;
       console.log(typeof(resultado));
       resultado = resultado.toFixed(2);
-      alert(`El resultado es: ${resultado} Kelvin`);
+      alert(`El resultado es: ${resultado} celsius`);
       } 
        
     if(unidad === 1 && unidadAConvertir === 3 ){
       let resultado = (temperatura - 273.15) * 9/5 + 32;
       resultado = resultado.toFixed(2);
-      alert(`El resultado es: ${resultado} Kelvin`);
+      alert(`El resultado es: ${resultado} fahrenheit`);
       } 
 
     if(unidad === 2 && unidadAConvertir === 1 ){
         let resultado = (temperatura + 273.15) * 1;
         resultado = resultado.toFixed(2);
-        alert(`El resultado es: ${resultado} celsius`);
+        alert(`El resultado es: ${resultado} Kelvin`);
       } 
 
     if(unidad === 2 && unidadAConvertir === 2 ){
@@ -66,20 +66,20 @@ var unidadAConvertir = prompt("¿A que unidad de temperatura la deseas convertir
     if(unidad === 2 && unidadAConvertir === 3 ){
         let resultado = temperatura * 9/5 + 32;
         resultado = resultado.toFixed(2);
-        alert(`El resultado es: ${resultado} celsius`);
+        alert(`El resultado es: ${resultado} fahrenheit`);
       }
 
     if(unidad === 3 && unidadAConvertir === 1 ){
         let resultado = (temperatura - 32) * 5/9 + 273.15;
         resultado = resultado.toFixed(2);
-        alert(`El resultado es: ${resultado} fahrenheit`);
+        alert(`El resultado es: ${resultado} Kelvin`);
 
       }
 
     if(unidad === 3 && unidadAConvertir === 2 ){
         let resultado = (temperatura - 32) * 5/9;
         resultado = resultado.toFixed(2);
-        alert(`El resultado es: ${resultado} fahrenheit`);
+        alert(`El resultado es: ${resultado} celsius`);
 
       }
 
