@@ -1,4 +1,22 @@
+//Variables
+var nombre = prompt("¿cual es tu nombre?");
+var numeroEnBitcoin = prompt("Digite el número de Bitcoin a convertir");
+var cotizacionEnEuros = 64677.95;
+var valorEnEuros = numeroEnBitcoin * cotizacionEnEuros;
 
+valorEnEuros = valorEnEuros.toFixed(2);
+
+alert(
+  "Hola " +
+    nombre +
+    ", " +
+    "la conversión de " +
+    numeroEnBitcoin +
+    " Bitcoin a euros son: € " +
+    valorEnEuros +
+    " Euros"
+);
+//---------------------------------------------------------------------------------
 var temperatura = prompt("¿Cual es la temperatura que quieres convertir");
     console.log(temperatura);
   temperatura = parseInt(temperatura);
